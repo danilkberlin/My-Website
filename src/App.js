@@ -7,6 +7,7 @@ import Top from './Pages/Top';
 import Portfolio from './Pages/Portfolio';
 import About from './Pages/About';
 import Resume from './Pages/Resume';
+import Comment from './Pages/Comment';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* ============================================= */}
       <About />
       <Resume />
+      <Comment />
       
     </>
   );
