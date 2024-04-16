@@ -5,9 +5,9 @@ import Doks from '../assets/Documents/28.03_Lebenslauf_neu.docx';
 const Top = () => {
     return(
        <>
+            <Image src={BackgroundImage} className='z-n1 position-absolute ' fluid/>
             <section id='home' className='home'>
                 <Container>
-                    <Image src={BackgroundImage} className='z-n1 position-absolute ' fluid/>
                     <Row className='justify-content-center'>
                         <Col md={6}>
                             <Row>
