@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Top from './Pages/Top';
 import Portfolio from './Pages/Portfolio';
 import About from './Pages/About';
+import Resume from './Pages/Resume';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
                           <Portfolio /> 
       {/* ============================================= */}
       <About />
+      <Resume />
       
     </>
   );

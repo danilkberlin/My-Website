@@ -1,6 +1,6 @@
-import {Container, Row, Col} from "react-bootstrap/Container";
+import {Container, Row, Col} from "react-bootstrap";
 import WorkExperience from "../components/WorkExperience";
-import FavoriteTools from "./FavouriteTools";
+import FavoriteTools from "../components/FavoriteTools";
 
 export default  function Resume(){
     return(
