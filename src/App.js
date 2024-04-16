@@ -5,13 +5,17 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import Top from './Pages/Top';
 import Portfolio from './Pages/Portfolio';
+import About from './Pages/About';
 
 function App() {
   return (
     <>
       <NavBar />
       <Top />
-      <Portfolio />
+      {/* ===== Portfolio wird noch gearbeiten =========*/}
+                          <Portfolio /> 
+      {/* ============================================= */}
+      <About />
     </>
   );
 }
