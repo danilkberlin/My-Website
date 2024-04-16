@@ -1,6 +1,6 @@
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import Doks from '../assets/Documents/28.03_Lebenslauf_neu.docx';
-
+import AboutCards from '../components/AboutCards';
 
 export default function About(){
     return(
@@ -84,7 +84,7 @@ export default function About(){
                                     </a>
                                 </Col>
                             </Row>
-                            {/* <AboutCards /> */}
+                            <AboutCards />
                         </Col>
                     </Row>
                 </Container>
