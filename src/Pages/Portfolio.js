@@ -33,8 +33,8 @@ export default function Portfolio(){
                                 <Col md={6} className="my-3">
                                     <Image  src={ImgProject3} className="rounded-4 w-100"/>
                                     <Form className="d-flex justify-content-center align-items-center mt-2">
-                                        <button className="button-light-mode px-4 py-1 mx-1 rounded-4">Illustrations</button>
-                                        <button className="button-light-mode px-4 py-1 mx-1 rounded-4">Web site</button>
+                                        <button className="button-light-mode-blue px-4 py-1 mx-1 rounded-4">Illustrations</button>
+                                        <button className="button-light-mode-blue px-4 py-1 mx-1 rounded-4">Web site</button>
                                     </Form>
                                 </Col>
                                 <Col md={6} className="my-3">
@@ -49,15 +49,15 @@ export default function Portfolio(){
                             <Col md={6} className="my-3">
                                     <Image  src={ImgProject1} className="rounded-4 w-100"/>
                                     <Form className="d-flex justify-content-center align-items-center mt-2">
-                                        <button className="button-dark-mode px-4 py-1 mx-1 rounded-4">Illustrations</button>
-                                        <button className="button-dark-mode px-4 py-1 mx-1 rounded-4">Web site</button>
+                                        <button className="button-dark-mode-green px-4 py-1 mx-1 rounded-4">Illustrations</button>
+                                        <button className="button-dark-mode-green px-4 py-1 mx-1 rounded-4">Web site</button>
                                     </Form>
                                 </Col>
                                 <Col md={6} className="my-3">
                                     <Image  src={ImgProject4} className="rounded-4 w-100"/>
                                     <Form className="d-flex justify-content-center align-items-center mt-2">
-                                        <button className="button-light-mode px-4 py-1 mx-1 rounded-4">Illustrations</button>
-                                        <button className="button-light-mode px-4 py-1 mx-1 rounded-4">Web site</button>
+                                        <button className="button-light-mode-violet px-4 py-1 mx-1 rounded-4">Illustrations</button>
+                                        <button className="button-light-mode-violet px-4 py-1 mx-1 rounded-4">Web site</button>
                                     </Form>
                                 </Col>
                             </Row>

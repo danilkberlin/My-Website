@@ -164,7 +164,7 @@ section{
 
 /* ================== Button ============================ */
 
-.button-dark-mode{
+.button-dark-mode, .button-dark-mode-green{
   background: #141414 ;
   color: #fff;
   border: none;
@@ -177,7 +177,13 @@ section{
   border: none;
 }
 
-.button-light-mode{
+.button-dark-mode-green:hover{
+  background-color: rgb(79, 237, 92);
+  color: #000;
+  border: none;
+}
+
+.button-light-mode, .button-light-mode-blue, .button-light-mode-violet{
   background-color: rgb(241,198,117);
   color: #fff;
   border: none;
@@ -188,4 +194,14 @@ section{
   background: #141414 ;
   color: #fff;
   border: none;
+}
+
+.button-light-mode-blue:hover{
+  background: #166976 ;
+  color: #fff;
+  border: none;
+}
+
+.button-light-mode-violet:hover{
+  background: #6748d0;
 }
