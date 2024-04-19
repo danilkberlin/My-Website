@@ -35,50 +35,50 @@ export default  function Resume(){
                             </Row>
                             <Row className='liniale-tabl align-items-center py-4'>
                                 <Col md={2}>
-                                    <p className="text-white-50">2010-2015</p>
+                                    <p className="grau-text">2010-2015</p>
                                 </Col>
                                 <Col md={5}>
                                     <h3>Drawing Concentration</h3>
-                                    <p><span className="text-white-50">Course by</span> Ukrainian Academy of Arts</p>
+                                    <p><span className="grau-text">Course by</span> Ukrainian Academy of Arts</p>
                                 </Col>
                                 <Col md={5}>
-                                    <p className="text-white-50">Intensive drawing courses that present the fundamental and academic principles of drawing</p>
+                                    <p className="grau-text">Intensive drawing courses that present the fundamental and academic principles of drawing</p>
                                 </Col>
                             </Row>
                             <Row className='liniale-tabl align-items-center py-4'>
                                 <Col md={2}>
-                                    <p className="text-white-50">2018-2019</p>
+                                    <p className="grau-text">2018-2019</p>
                                 </Col>
                                 <Col md={5}>
                                     <h3>Marketing</h3>
-                                    <p><span className="text-white-50">Course by </span> Charkow Academy of Marketing</p>
+                                    <p><span className="grau-text">Course by </span> Charkow Academy of Marketing</p>
                                 </Col>
                                 <Col md={5}>
-                                    <p className="text-white-50">Intensive marketing courses presenting the fundamental principles of promoting and delivering a product as well as sales</p>
+                                    <p className="grau-text">Intensive marketing courses presenting the fundamental principles of promoting and delivering a product as well as sales</p>
                                 </Col>
                             </Row>
                             <Row className='liniale-tabl align-items-center py-4'>
                                 <Col md={2}>
-                                    <p className="text-white-50">2019-2020</p>
+                                    <p className="grau-text">2019-2020</p>
                                 </Col>
                                 <Col md={5}>
                                     <h3>Ul/Ux Desing Specialization</h3>
-                                    <p><span className="text-white-50">Onlicne course by</span> XDI</p>
+                                    <p><span className="grau-text">Onlicne course by</span> XDI</p>
                                 </Col>
                                 <Col md={5}>
-                                    <p className="text-white-50">This course is about how to complete the design process from beginning to end</p>
+                                    <p className="grau-text">This course is about how to complete the design process from beginning to end</p>
                                 </Col>
                             </Row>
                             <Row className='liniale-tabl align-items-center py-4'>
                                 <Col md={2}>
-                                    <p className="text-white-50">2023-2024</p>
+                                    <p className="grau-text">2023-2024</p>
                                 </Col>
                                 <Col md={5}>
                                     <h3>Frontend development Specialization</h3>
-                                    <p><span className="text-white-50">By</span> Little training</p>
+                                    <p><span className="grau-text">By</span> Little training</p>
                                 </Col>
                                 <Col md={5}>
-                                    <p className="text-white-50">I teach frontend development and have experience working with clients and code</p>
+                                    <p className="grau-text">I teach frontend development and have experience working with clients and code</p>
                                 </Col>
                             </Row>
                             <WorkExperience />
