@@ -10,26 +10,26 @@ export default function WorkExperience() {
             </Row>
             <Row className='liniale-tabl align-items-center py-4'>
                 <Col md={2}>
-                    <p className="text-white-50">2019-2022</p>
+                    <p className="grau-text">2019-2022</p>
                 </Col>
                 <Col md={5}>
                     <h3>System administrator</h3>
-                    <p><span className="text-white-50">Work by</span> Meest</p>
+                    <p><span className="grau-text">Work by</span> Meest</p>
                 </Col>
                 <Col md={5}>
-                    <p className="text-white-50">Worked as a data processor, transitioned to the development department, and assumed the role of a system administrator within a year</p>
+                    <p className="grau-text">Worked as a data processor, transitioned to the development department, and assumed the role of a system administrator within a year</p>
                 </Col>
             </Row>
             <Row className='liniale-tabl align-items-center py-4'>
                 <Col md={2}>
-                    <p className="text-white-50">2023</p>
+                    <p className="grau-text">2023</p>
                 </Col>
                 <Col md={5}>
                     <h3>Frontend Developer</h3>
-                    <p><span className="text-white-50">Practice at</span> Turbine Kreuzberg GmbH</p>
+                    <p><span className="grau-text">Practice at</span> Turbine Kreuzberg GmbH</p>
                 </Col>
                 <Col md={5}>
-                    <p className="text-white-50">Gained experience in front-end development during internship</p>
+                    <p className="grau-text">Gained experience in front-end development during internship</p>
                 </Col>
             </Row>
         </>
