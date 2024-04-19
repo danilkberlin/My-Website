@@ -26,7 +26,7 @@ section{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-/* ================= Animation */
+/* ================= Animation ============================*/
 
 .anim-button{
   background-color: initial;
@@ -43,11 +43,22 @@ section{
   from {font-size: 12px;}
   to {font-size: 16px;}
 }
+
+/* ================= Text Color ============================ */
+.greu-text{
+  color: #aaa;
+}
+.white-text{
+  color: #fff;
+}
+.black-text{
+  color: #000;
+}
 /* ================== Nav Bar ============================ */
 
 
 
-/* ================== Nav Bar Swith button ============================ */
+      /* ================== Nav Bar Swith button ============================ */
 
 .switch {
     font-size: 17px;
@@ -162,7 +173,7 @@ section{
 
 /* ================== Portfolio ============================ */
 
-/* ================== Button ============================ */
+          /* ================== Button ============================ */
 
 .button-dark-mode, .button-dark-mode-green{
   background: #141414 ;
@@ -204,4 +215,10 @@ section{
 
 .button-light-mode-violet:hover{
   background: #6748d0;
+}
+
+/* ================== About ============================ */
+.border-cards-skills{
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

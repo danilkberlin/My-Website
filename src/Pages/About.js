@@ -24,19 +24,19 @@ export default function About(){
                             </Row>
                             <Row className="my-4 align-items-center">
                                 <Col xs={4}>
-                                    <div className="text-center background-cards-skills py-3">
+                                    <div className="text-center border-cards-skills py-3 rounded-4">
                                         <h1 className='text-title-gradient'>40+</h1>
                                         <p>Happy clients</p>
                                     </div>
                                 </Col>
                                 <Col xs={4}>
-                                    <div className="text-center background-cards-skills py-3">
+                                    <div className="text-center border-cards-skills py-3 rounded-4">
                                         <h1 className='text-title-gradient'>2+</h1>
                                         <p>Years of experience</p>
                                     </div>
                                 </Col>
                                 <Col xs={4}>
-                                    <div className="text-center background-cards-skills py-3">
+                                    <div className="text-center border-cards-skills py-3 rounded-4">
                                         <h1 className='text-title-gradient'>50+</h1>
                                         <p>Projects done</p>
                                     </div>
@@ -50,25 +50,25 @@ export default function About(){
                                 <Col md={4} className='text-form'>
                                     <Row className="me-2">
                                         <Col>
-                                            <p className="text-white-50">Name</p>
+                                            <p className="greu-text">Name</p>
                                             <h6 className="text-form-fet">Danylo Kravets</h6>
                                         </Col>
                                     </Row>
                                     <Row className="my-2">
                                         <Col>
-                                            <p className="text-white-50">Phone</p>
+                                            <p className="greu-text">Phone</p>
                                             <h6 className="text-form-fet">+4915225988431</h6>
                                         </Col>
                                     </Row>
                                     <Row className="my-2">
                                         <Col>
-                                            <p className="text-white-50">Email</p>
+                                            <p className="greu-text">Email</p>
                                             <h6 className="text-form-fet">danilkravets19@gmail.com</h6>
                                         </Col>
                                     </Row>
                                     <Row className="my-2">
                                         <Col>
-                                            <p className="text-white-50">Location</p>
+                                            <p className="greu-text">Location</p>
                                             <h6 className="text-form-fet">Berlin, Germany</h6>
                                         </Col>
                                     </Row>
@@ -76,11 +76,11 @@ export default function About(){
                             </Row>
                             <Row>
                                 <Col md={3}>
-                                    <a  href={Doks} download="Danil_Kravets_Lebenslauf_neu.docx">
-                                        <Button className='buton-letstalk rounded-4 w-100 text-center' variant="px-4 py-2" >Download CV <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                    <a href={Doks} download="Danil_Kravets_Lebenslauf_neu.docx">
+                                        <button className='anim-button px-4 py-2 mx-2 w-100 rounded-4'>Download CV  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
                                         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
-                                        </svg></Button>
+                                        </svg></button>
                                     </a>
                                 </Col>
                             </Row>
