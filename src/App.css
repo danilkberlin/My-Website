@@ -17,6 +17,14 @@ section{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Default button navigete for content */
+.nav-button-content{
+  background-color: initial;
+  font-size: 12px;
+  border: 1px solid #c0c0c0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 /* ================== Nav Bar ============================ */
 
 
