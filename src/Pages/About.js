@@ -25,19 +25,19 @@ export default function About(){
                             <Row className="my-4 align-items-center">
                                 <Col xs={4}>
                                     <div className="text-center background-cards-skills py-3">
-                                        <h1 className='text-title'>40+</h1>
+                                        <h1 className='text-title-gradient'>40+</h1>
                                         <p>Happy clients</p>
                                     </div>
                                 </Col>
                                 <Col xs={4}>
                                     <div className="text-center background-cards-skills py-3">
-                                        <h1 className='text-title'>2+</h1>
+                                        <h1 className='text-title-gradient'>2+</h1>
                                         <p>Years of experience</p>
                                     </div>
                                 </Col>
                                 <Col xs={4}>
                                     <div className="text-center background-cards-skills py-3">
-                                        <h1 className='text-title'>50+</h1>
+                                        <h1 className='text-title-gradient'>50+</h1>
                                         <p>Projects done</p>
                                     </div>
                                 </Col>

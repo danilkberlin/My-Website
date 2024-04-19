@@ -13,7 +13,7 @@ export default function AboutCards(){
                     <div className='background-cards-about'>
                         <Row className='my-2'>
                             <Col md={6}>
-                                <h1 className='ms-2'>Frontend development</h1>
+                                <h1 className='text-gradient ms-2'>Frontend development</h1>
                             </Col>
                         </Row>
                         <Row className='d-flex my-2'>
@@ -40,7 +40,7 @@ export default function AboutCards(){
                     <div className='background-cards-about'>
                         <Row className='my-2'>
                             <Col md={12}>
-                                <h1 className='ms-2'>SEO/Digital marketing solutions</h1>
+                                <h1 className='text-gradient ms-2'>SEO/Digital marketing solutions</h1>
                             </Col>
                         </Row>
                         <Row className='d-flex my-2'>
@@ -67,7 +67,7 @@ export default function AboutCards(){
                     <div className='background-cards-about'>
                         <Row className='my-2'>
                             <Col md={6}>
-                            <h1 className='ms-2'>Brand identity</h1>
+                            <h1 className='text-gradient ms-2'>Brand identity</h1>
                             </Col>
                         </Row>
                         <Row className='d-flex my-2'>
@@ -94,7 +94,7 @@ export default function AboutCards(){
                     <div className='background-cards-about'>
                         <Row className='my-2'>
                             <Col md={12}>
-                                <h1 className='ms-2'>Digital art and graphic design</h1>
+                                <h1 className='text-gradient ms-2'>Digital art and graphic design</h1>
                             </Col>
                         </Row>
                         <Row className='d-flex my-2'>
