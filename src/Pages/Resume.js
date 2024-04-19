@@ -20,7 +20,7 @@ export default  function Resume(){
                             </Row>
                             <Row>
                                 <Col md='8'>
-                                    <h1 className='text-title'>Education and Practical experience</h1>
+                                    <h1 className='text-title-gradient'>Education and Practical experience</h1>
                                 </Col>
                             </Row>
                             <Row className='my-3'>
@@ -30,7 +30,7 @@ export default  function Resume(){
                             </Row>
                             <Row className='my-3'>
                                 <Col>
-                                    <h1 className='text-titel'>My education</h1>
+                                    <h1 className='text-title-gradient'>My education</h1>
                                 </Col>
                             </Row>
                             <Row className='liniale-tabl align-items-center py-4'>

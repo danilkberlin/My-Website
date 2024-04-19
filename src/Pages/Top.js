@@ -19,8 +19,8 @@ const Top = () => {
                                 </Col>
                                 <Row>
                                     <Col>
-                                        <h1 className=''>I'm Danylo Kravets</h1>
-                                        <h1 className=''>UI/UX Designer and frontend developer.</h1>
+                                        <h1 className='text-title-gradient'>I'm Danylo Kravets</h1>
+                                        <h1 className='text-title-gradient'>UI/UX Designer and frontend developer.</h1>
                                     </Col>
                                 </Row>
                             </Row>

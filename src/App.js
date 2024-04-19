@@ -8,6 +8,8 @@ import Portfolio from './Pages/Portfolio';
 import About from './Pages/About';
 import Resume from './Pages/Resume';
 import Comment from './Pages/Comment';
+import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <About />
       <Resume />
       <Comment />
+      <Contact />
+      <Footer />
       
     </>
   );

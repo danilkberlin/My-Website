@@ -19,7 +19,7 @@ export default function About(){
                             </Row>
                             <Row>
                                 <Col>
-                                    <h1 className='text-title'>Turning complex problems into simple design</h1>
+                                    <h1 className='text-title-gradient'>Turning complex problems into simple design</h1>
                                 </Col>
                             </Row>
                             <Row className="my-4 align-items-center">

@@ -5,7 +5,7 @@ export default function WorkExperience() {
         <>
             <Row className='my-4'>
                 <Col>
-                    <h1 className="text-title mt-3">Work experience</h1>
+                    <h1 className="text-title-gradient mt-3">Work experience</h1>
                 </Col>
             </Row>
             <Row className='liniale-tabl align-items-center py-4'>

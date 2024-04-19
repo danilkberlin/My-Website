@@ -22,7 +22,7 @@ export default function Portfolio(){
                             </Row>
                             <Row>
                                 <Col>
-                                    <h1 className='text-title'>Check out my featured projects.</h1>
+                                    <h1 className='text-title-gradient'>Check out my featured projects.</h1>
                                 </Col>
                             </Row>
                         </Col>

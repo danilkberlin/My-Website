@@ -19,7 +19,7 @@ export default function FavoriteTools(){
         <>
             <Row className='mt-5 mb-2'>
                 <Col>
-                    <h1 className="text-title">My favourite tools</h1>
+                    <h1 className="text-title-gradient">My favourite tools</h1>
                 </Col>
             </Row>
             <Row className=' align-items-center'>

@@ -22,7 +22,7 @@ export default function Comment() {
                             </Row>
                             <Row className="mb-4">
                                 <Col>
-                                    <h1 className='text-title'>Clients say about me</h1>
+                                    <h1 className='text-title-gradient'>Clients say about me</h1>
                                 </Col>
                             </Row>
                             {/* Calusel */}

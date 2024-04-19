@@ -2,6 +2,21 @@ section{
     padding: 100px 0;
 }
 
+/* Default gradient for a text titel  */
+.text-title-gradient{
+  background: rgb(241,198,117);
+  background: linear-gradient(90deg, rgba(241,198,117,1) 16%, rgba(239,210,236,1) 50%, rgba(183,201,245,1) 84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 52px;
+}
+/* Default gradient for a text titel  */
+.text-gradient{
+  background: rgb(241,198,117);
+  background: linear-gradient(90deg, rgba(241,198,117,1) 16%, rgba(239,210,236,1) 50%, rgba(183,201,245,1) 84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* ================== Nav Bar ============================ */
 
 
@@ -115,3 +130,7 @@ section{
   .input:checked + .slider:before {
     transform: translateX(30px);
   }
+
+
+/* ================== Top ============================ */
+
