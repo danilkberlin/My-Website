@@ -25,6 +25,24 @@ section{
   border: 1px solid #c0c0c0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+/* ================= Animation */
+
+.anim-button{
+  background-color: initial;
+  border: 1px solid #c0c0c0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.anim-button:hover{
+  animation-name: btn-animation;
+  animation-duration: 1s;
+}
+
+@keyframes btn-animation {
+  from {font-size: 12px;}
+  to {font-size: 16px;}
+}
 /* ================== Nav Bar ============================ */
 
 
@@ -142,3 +160,32 @@ section{
 
 /* ================== Top ============================ */
 
+/* ================== Portfolio ============================ */
+
+/* ================== Button ============================ */
+
+.button-dark-mode{
+  background: #141414 ;
+  color: #fff;
+  border: none;
+  transition: background  0.87s ease-in-out;
+}
+
+.button-dark-mode:hover{
+  background-color: rgb(241,198,117);
+  color: #fff;
+  border: none;
+}
+
+.button-light-mode{
+  background-color: rgb(241,198,117);
+  color: #fff;
+  border: none;
+  transition: background 0.87s;
+}
+
+.button-light-mode:hover{
+  background: #141414 ;
+  color: #fff;
+  border: none;
+}
