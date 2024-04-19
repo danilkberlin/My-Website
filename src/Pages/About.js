@@ -50,25 +50,25 @@ export default function About(){
                                 <Col md={4} className='text-form'>
                                     <Row className="me-2">
                                         <Col>
-                                            <p className="greu-text">Name</p>
+                                            <p className="grau-text">Name</p>
                                             <h6 className="text-form-fet">Danylo Kravets</h6>
                                         </Col>
                                     </Row>
                                     <Row className="my-2">
                                         <Col>
-                                            <p className="greu-text">Phone</p>
+                                            <p className="grau-text">Phone</p>
                                             <h6 className="text-form-fet">+4915225988431</h6>
                                         </Col>
                                     </Row>
                                     <Row className="my-2">
                                         <Col>
-                                            <p className="greu-text">Email</p>
+                                            <p className="grau-text">Email</p>
                                             <h6 className="text-form-fet">danilkravets19@gmail.com</h6>
                                         </Col>
                                     </Row>
                                     <Row className="my-2">
                                         <Col>
-                                            <p className="greu-text">Location</p>
+                                            <p className="grau-text">Location</p>
                                             <h6 className="text-form-fet">Berlin, Germany</h6>
                                         </Col>
                                     </Row>

@@ -45,8 +45,8 @@ section{
 }
 
 /* ================= Text Color ============================ */
-.greu-text{
-  color: #aaa;
+.grau-text{
+  color: #6A6A6A;
 }
 .white-text{
   color: #fff;
@@ -175,7 +175,7 @@ section{
 
           /* ================== Button ============================ */
 
-.button-dark-mode, .button-dark-mode-green{
+.button-dark-mode, .button-dark-mode-green, .button-about-cards{
   background: #141414 ;
   color: #fff;
   border: none;
@@ -213,12 +213,12 @@ section{
   border: none;
 }
 
-.button-light-mode-violet:hover{
+.button-light-mode-violet:hover, .button-about-cards:hover{
   background: #6748d0;
 }
 
 /* ================== About ============================ */
-.border-cards-skills{
+.border-cards-skills, .border-cards-about{
   border: 1px solid rgba(192, 192, 192, 0.5);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
