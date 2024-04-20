@@ -24,7 +24,7 @@ function NavBar() {
 
   return (
     <>
-        <Navbar expand='md' className="mb-3">
+        <Navbar expand='md' className="navbar-fixed mb-3">
             <Container fluid>
                 <Navbar.Brand href="#" className='brand'>LOGO</Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
@@ -40,11 +40,11 @@ function NavBar() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav variant="pills" defaultActiveKey="/home" className="justify-content-center flex-grow-1 pe-3">
-                            <Nav.Link className='mx-2'  href="#home">Home</Nav.Link>
-                            <Nav.Link className='mx-2' href="#portfolio">Portfolio</Nav.Link>
-                            <Nav.Link className='mx-2' href="#about">About</Nav.Link>
-                            <Nav.Link className='mx-2' href="#resume">Resume</Nav.Link>
-                            <Nav.Link className='mx-2' href="#contact">Contact</Nav.Link>
+                            <Nav.Link className='mx-2' data-to-scrollspy-id="home"  href="#home">Home</Nav.Link>
+                            <Nav.Link className='mx-2' data-to-scrollspy-id="portfolio" href="#portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className='mx-2' data-to-scrollspy-id="about" href="#about">About</Nav.Link>
+                            <Nav.Link className='mx-2' data-to-scrollspy-id="resume" href="#resume">Resume</Nav.Link>
+                            <Nav.Link className='mx-2' data-to-scrollspy-id="contact" href="#contact">Contact</Nav.Link>
                         </Nav>
                         <Form className='d-flex align-items-center'>
                             <label className="switch">

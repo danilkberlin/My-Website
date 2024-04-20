@@ -12,3 +12,23 @@ code {
     monospace;
 }
 
+.active-scroll-spy {
+  border: 1px solid rgba(239,210,236,1) !important;
+  background: initial !important;
+  border-radius: 1rem !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+.navbar-fixed{
+  overflow: hidden !important;
+  position: fixed !important;
+  width: 100% !important;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  border: 1px solid rgba(239,210,236,1) !important;
+  background: initial !important;
+  border-radius: 1rem !important;
+  backdrop-filter: blur(5px) !important;
+}

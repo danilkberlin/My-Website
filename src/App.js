@@ -10,21 +10,23 @@ import Resume from './Pages/Resume';
 import Comment from './Pages/Comment';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
+import ScrollSpy from 'react-ui-scrollspy';
 
 function App() {
   return (
     <>
       <NavBar />
-      <Top />
-      {/* ===== Portfolio wird noch gearbeiten =========*/}
-                          <Portfolio /> 
-      {/* ============================================= */}
-      <About />
-      <Resume />
-      <Comment />
-      <Contact />
-      <Footer />
-      
+      <ScrollSpy>
+        <Top />
+        {/* ===== Portfolio wird noch gearbeiten =========*/}
+                            <Portfolio /> 
+        {/* ============================================= */}
+        <About />
+        <Resume />
+        <Comment />
+        <Contact />
+        <Footer />
+      </ScrollSpy>
     </>
   );
 }
