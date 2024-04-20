@@ -2,6 +2,11 @@ section{
     padding: 100px 0 50px 0;
 }
 
+body{
+  background-color: var(--bg-color) !important;
+  color: var(--color) !important;
+}
+
 /* Default gradient for a text titel  */
 .text-title-gradient{
   background: rgb(241,198,117);
@@ -24,6 +29,7 @@ section{
   font-size: 12px;
   border: 1px solid #c0c0c0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: var(--color) !important;
 }
 
 /* ================= Animation ============================*/
@@ -32,6 +38,7 @@ section{
   background-color: initial !important;
   border: 1px solid #c0c0c0 !important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  color: var(--color) !important;
 }
 
 .anim-button:hover{
@@ -56,7 +63,22 @@ section{
 }
 /* ================== Nav Bar ============================ */
 
+.navbar {
+  --bs-navbar-color: var(--color) !important;
+  --bs-navbar-hover-color: var(--color-hover) !important;
+  --bs-navbar-active-color:  var(--color-hover) !important;
+}
 
+.form-nav-button{
+  background-color: initial !important;
+  border: 1px solid #c0c0c0 !important;
+  color: var(--color) !important;
+}
+
+.form-nav-button:hover{
+  animation-name: btn-animation;
+  animation-duration: 1s;
+}
 
       /* ================== Nav Bar Swith button ============================ */
 
@@ -239,3 +261,8 @@ section{
 .contact-style::placeholder{
   color: #6A6A6A !important;
 } 
+
+
+.icons-color-footer{
+  fill: var(--fill-color);
+}
