@@ -29,9 +29,9 @@ section{
 /* ================= Animation ============================*/
 
 .anim-button{
-  background-color: initial;
-  border: 1px solid #c0c0c0;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: initial !important;
+  border: 1px solid #c0c0c0 !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
 
 .anim-button:hover{
@@ -52,7 +52,7 @@ section{
   color: #fff;
 }
 .black-text{
-  color: #000;
+  color: #000 !important;
 }
 /* ================== Nav Bar ============================ */
 
@@ -233,6 +233,7 @@ section{
   border: none !important;
   border-bottom: 2px solid rgba(241,198,117,1) !important;
   border-radius: 0 !important;
+  background: initial !important;
 }
 
 .contact-style::placeholder{
