@@ -227,3 +227,14 @@ section{
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
 }
+
+/* ================== Contact ============================ */
+.contact-style{
+  border: none !important;
+  border-bottom: 2px solid rgba(241,198,117,1) !important;
+  border-radius: 0 !important;
+}
+
+.contact-style::placeholder{
+  color: #6A6A6A !important;
+} 
