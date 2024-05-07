@@ -1,5 +1,8 @@
 section{
-    padding: 100px 0 50px 0;
+  padding: 200px 0 50px 0;
+}
+.home, .portfolio{
+  padding: 50px 0 50px 0;
 }
 
 body{
@@ -190,9 +193,44 @@ body{
     transform: translateX(30px);
   }
 
+/* ================== Modal Windiow ============================ */
+
+.modal-header{
+ background: var(--bg-color) !important;
+}
+.modal-body{
+ background: var(--bg-color) !important;
+}
+.modal-footer{
+ background: var(--bg-color) !important;
+}
+
+.offcanvas-header{
+  color: var(--nav-offen-card-color) !important;
+}
+.offcanvas-body{
+  color: var(--nav-offen-card-color) !important;
+}
 
 /* ================== Top ============================ */
 
+.background-avatar{
+  background-color: var(--bg-color) !important;
+  border: 1px solid #c0c0c0 !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  color: var(--color) !important;
+}
+
+.icon-btn{
+  fill: var(--fill-color);
+  border: 1px solid #c0c0c0;
+  transition: all 0.68s ease-in-out;
+}
+
+.icon-btn:hover{
+  fill: var(--fill-color-hover);
+  border: 1px solid #c0c0c0;
+}
 /* ================== Portfolio ============================ */
 
           /* ================== Button ============================ */
@@ -266,3 +304,4 @@ body{
 .icons-color-footer{
   fill: var(--fill-color);
 }
+
