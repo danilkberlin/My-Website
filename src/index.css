@@ -33,14 +33,14 @@ code {
   backdrop-filter: blur(5px) !important;
 }
 
-/* :root{
+.for-light-mode{
   --bg-color: #1b1b1b;
   --color: #fff;
   --color-hover: rgba(241,198,117);
   --fill-color: #d1d1d1;
   --fill-color-hover: #fff
   --nav-offen-card-color: #000;
-} */
+}
 :root{
   --bg-color: #fff;
   --color: #000;

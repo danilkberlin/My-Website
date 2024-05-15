@@ -1,33 +1,44 @@
-section{
+section {
   padding: 200px 0 50px 0;
 }
-.home, .portfolio{
+.home,
+.portfolio {
   padding: 50px 0 50px 0;
 }
 
-body{
+body {
   background-color: var(--bg-color) !important;
   color: var(--color) !important;
 }
 
 /* Default gradient for a text titel  */
-.text-title-gradient{
-  background: rgb(241,198,117);
-  background: linear-gradient(90deg, rgba(241,198,117,1) 16%, rgba(239,210,236,1) 50%, rgba(183,201,245,1) 84%);
+.text-title-gradient {
+  background: rgb(241, 198, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 198, 117, 1) 16%,
+    rgba(239, 210, 236, 1) 50%,
+    rgba(183, 201, 245, 1) 84%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 52px;
 }
 /* Default gradient for a text titel  */
-.text-gradient{
-  background: rgb(241,198,117);
-  background: linear-gradient(90deg, rgba(241,198,117,1) 16%, rgba(239,210,236,1) 50%, rgba(183,201,245,1) 84%);
+.text-gradient {
+  background: rgb(241, 198, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 198, 117, 1) 16%,
+    rgba(239, 210, 236, 1) 50%,
+    rgba(183, 201, 245, 1) 84%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* Default button navigete for content */
-.nav-button-content{
+.nav-button-content {
   background-color: initial;
   font-size: 12px;
   border: 1px solid #c0c0c0;
@@ -37,31 +48,35 @@ body{
 
 /* ================= Animation ============================*/
 
-.anim-button{
+.anim-button {
   background-color: initial !important;
   border: 1px solid #c0c0c0 !important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
   color: var(--color) !important;
 }
 
-.anim-button:hover{
+.anim-button:hover {
   animation-name: btn-animation;
   animation-duration: 1s;
 }
 
 @keyframes btn-animation {
-  from {font-size: 12px;}
-  to {font-size: 16px;}
+  from {
+    font-size: 12px;
+  }
+  to {
+    font-size: 16px;
+  }
 }
 
 /* ================= Text Color ============================ */
-.grau-text{
-  color: #6A6A6A;
+.grau-text {
+  color: #6a6a6a;
 }
-.white-text{
+.white-text {
   color: #fff;
 }
-.black-text{
+.black-text {
   color: #000 !important;
 }
 /* ================== Nav Bar ============================ */
@@ -69,239 +84,246 @@ body{
 .navbar {
   --bs-navbar-color: var(--color) !important;
   --bs-navbar-hover-color: var(--color-hover) !important;
-  --bs-navbar-active-color:  var(--color-hover) !important;
+  --bs-navbar-active-color: var(--color-hover) !important;
 }
 
-.form-nav-button{
+.form-nav-button {
   background-color: initial !important;
   border: 1px solid #c0c0c0 !important;
   color: var(--color) !important;
 }
 
-.form-nav-button:hover{
+.form-nav-button:hover {
   animation-name: btn-animation;
   animation-duration: 1s;
 }
 
-      /* ================== Nav Bar Swith button ============================ */
+/* ================== Nav Bar Swith button ============================ */
 
 .switch {
-    font-size: 17px;
-    position: relative;
-    display: inline-block;
-    width: 64px;
-    height: 34px;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #73c0fc;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #e8e8e8;
+  transition: 0.4s;
+}
+
+.sun svg {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+.moon svg {
+  fill: #73c0fc;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+/* .switch:hover */
+.sun svg {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
   }
-  
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+
+  100% {
+    transform: rotate(360deg);
   }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #73C0FC;
-    transition: .4s;
-    border-radius: 30px;
+}
+
+/* .switch:hover */
+.moon svg {
+  animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 30px;
-    width: 30px;
-    border-radius: 20px;
-    left: 2px;
-    bottom: 2px;
-    z-index: 2;
-    background-color: #e8e8e8;
-    transition: .4s;
+
+  25% {
+    transform: rotate(-10deg);
   }
-  
-  .sun svg {
-    position: absolute;
-    top: 6px;
-    left: 36px;
-    z-index: 1;
-    width: 24px;
-    height: 24px;
+
+  75% {
+    transform: rotate(10deg);
   }
-  
-  .moon svg {
-    fill: #73C0FC;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    z-index: 1;
-    width: 24px;
-    height: 24px;
+
+  100% {
+    transform: rotate(0deg);
   }
-  
-  /* .switch:hover */.sun svg {
-    animation: rotate 15s linear infinite;
-  }
-  
-  @keyframes rotate {
-   
-    0% {
-      transform: rotate(0);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /* .switch:hover */.moon svg {
-    animation: tilt 5s linear infinite;
-  }
-  
-  @keyframes tilt {
-   
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    25% {
-      transform: rotate(-10deg);
-    }
-  
-    75% {
-      transform: rotate(10deg);
-    }
-  
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-  
-  .input:checked + .slider {
-    background-color: #183153;
-  }
-  
-  .input:focus + .slider {
-    box-shadow: 0 0 1px #183153;
-  }
-  
-  .input:checked + .slider:before {
-    transform: translateX(30px);
-  }
+}
+
+.input:checked + .slider {
+  background-color: #183153;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
+}
 
 /* ================== Modal Windiow ============================ */
 
-.modal-header{
- background: var(--bg-color) !important;
+.modal-header {
+  background: var(--bg-color) !important;
 }
-.modal-body{
- background: var(--bg-color) !important;
+.modal-body {
+  background: var(--bg-color) !important;
 }
-.modal-footer{
- background: var(--bg-color) !important;
+.modal-footer {
+  background: var(--bg-color) !important;
 }
 
-.offcanvas-header{
+.offcanvas-header {
   color: var(--nav-offen-card-color) !important;
 }
-.offcanvas-body{
+.offcanvas-body {
   color: var(--nav-offen-card-color) !important;
 }
 
 /* ================== Top ============================ */
 
-.background-avatar{
+.background-avatar {
   background-color: var(--bg-color) !important;
   border: 1px solid #c0c0c0 !important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
   color: var(--color) !important;
 }
 
-.icon-btn{
+.icon-btn {
   fill: var(--fill-color);
   border: 1px solid #c0c0c0;
   transition: all 0.68s ease-in-out;
 }
 
-.icon-btn:hover{
+.icon-btn:hover {
   fill: var(--fill-color-hover);
   border: 1px solid #c0c0c0;
 }
 /* ================== Portfolio ============================ */
 
-          /* ================== Button ============================ */
+/* ================== Button ============================ */
 
-.button-dark-mode, .button-dark-mode-green, .button-about-cards{
-  background: #141414 ;
+.button-dark-mode,
+.button-dark-mode-green,
+.button-about-cards {
+  background: #141414;
   color: #fff;
   border: none;
-  transition: background  0.87s ease-in-out;
+  transition: background 0.87s ease-in-out;
 }
 
-.button-dark-mode:hover{
-  background-color: rgb(241,198,117);
+.button-dark-mode:hover {
+  background-color: rgb(241, 198, 117);
   color: #fff;
   border: none;
 }
 
-.button-dark-mode-green:hover{
+.button-dark-mode-green:hover {
   background-color: rgb(79, 237, 92);
   color: #000;
   border: none;
 }
 
-.button-light-mode, .button-light-mode-blue, .button-light-mode-violet{
-  background-color: rgb(241,198,117);
+.button-light-mode,
+.button-light-mode-blue,
+.button-light-mode-violet {
+  background-color: rgb(241, 198, 117);
   color: #fff;
   border: none;
   transition: background 0.87s;
 }
 
-.button-light-mode:hover{
-  background: #141414 ;
+.button-light-mode:hover {
+  background: #141414;
   color: #fff;
   border: none;
 }
 
-.button-light-mode-blue:hover{
-  background: #166976 ;
+.button-light-mode-blue:hover {
+  background: #166976;
   color: #fff;
   border: none;
 }
 
-.button-light-mode-violet:hover, .button-about-cards:hover{
+.button-light-mode-violet:hover,
+.button-about-cards:hover {
   background: #6748d0;
 }
 
 /* ================== About ============================ */
-.border-cards-skills, .border-cards-about{
+.border-cards-skills,
+.border-cards-about {
   border: 1px solid rgba(192, 192, 192, 0.5);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.liniale-tabl{
+.liniale-tabl {
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
 }
 
 /* ================== Contact ============================ */
-.contact-style{
+.contact-style {
   border: none !important;
-  border-bottom: 2px solid rgba(241,198,117,1) !important;
+  border-bottom: 2px solid rgba(241, 198, 117, 1) !important;
   border-radius: 0 !important;
   background: initial !important;
 }
-
-.contact-style::placeholder{
-  color: #6A6A6A !important;
-} 
-
-
-.icons-color-footer{
-  fill: var(--fill-color);
+input {
+  outline: none !important;
 }
 
+.contact-style::placeholder {
+  color: #6a6a6a !important;
+}
+
+.icons-color-footer {
+  fill: var(--fill-color);
+}
