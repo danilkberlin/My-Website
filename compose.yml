@@ -1,0 +1,13 @@
+services:
+  server:
+    build: 
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - 8080:3001
+    expose:
+      - 8080
+    environment:
+      - POST=3001
+    volumes:
+      - ./application/src:/app/src
